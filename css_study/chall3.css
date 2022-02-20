@@ -1,0 +1,55 @@
+header div {
+  display: flex;
+  font-size: 20px;
+
+  justify-content: center;
+  font-weight: 900;
+}
+.floor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: gainsboro;
+}
+.small {
+  margin: 10px;
+  height: 350px;
+  width: 220px;
+  border: 5px solid white;
+}
+
+fir div div {
+  background-color: tomato;
+}
+fir div ~ div {
+  background-color: teal;
+}
+
+sec div div {
+  background-color: burlywood;
+}
+
+sec div ~ div {
+  background-color: thistle;
+}
+
+div div div {
+  position: relative;
+  top: 30px;
+  background-color: white;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+span {
+  font-weight: 900;
+}
+.col {
+  font-size: 25px;
+}
+.num {
+  font-size: 15px;
+}

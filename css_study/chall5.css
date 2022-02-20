@@ -1,0 +1,126 @@
+body {
+  border: 4px solid aquamarine;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.title_co {
+  width: 33%;
+}
+.title_co:nth-child(1) {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.title_co:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.title_co:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yell {
+  background-color: gold;
+}
+ul :first-child div {
+  background-color: tomato;
+}
+ul :nth-child(2) div {
+  background-color: plum;
+}
+ul :nth-child(3) div {
+  background-color: mediumblue;
+}
+ul :nth-child(4) div {
+  background-color: cadetblue;
+}
+
+.status__play {
+  border-radius: 20%;
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  border-bottom-width: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status__text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.cir {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-bottom-width: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.now__text {
+  margin-left: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.bold_t {
+  font-size: 30px;
+  font-weight: bold;
+}
+.small_t {
+  font-size: 20px;
+}
+.list__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.list__text {
+  font-size: 15px;
+}
+
+.list_song {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 30px;
+}
+.song {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

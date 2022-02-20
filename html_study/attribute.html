@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      div {
+        width: 150px;
+        height: 150px;
+        background-color: blanchedalmond;
+        position: relative;
+      }
+
+      input {
+        boder: 1px solid wheat;
+      }
+      input:required {
+        border-color: tomato;
+      }
+      input[type="password"] {
+        background-color: aqua;
+      }
+      input[placeholder="username"] {
+        background-color: thistle;
+      }
+      input[placeholder~="name"] {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <input type="text" placeholder="username" />
+        <input type="text" placeholder="realname" />
+        <input type="password" required placeholder="password" />
+      </form>
+    </div>
+  </body>
+</html>

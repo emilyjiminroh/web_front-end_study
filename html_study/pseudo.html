@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      div {
+        width: 150px;
+        height: 150px;
+        bbackground-color: blanchedalmond;
+        position: relative;
+      }
+
+      span {
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        background-clor: white;
+      }
+
+      div > span {
+        text-decoration: underline;
+      }
+      p + span {
+        text-decoration: wavy;
+      }
+      p ~ span {
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello!</span>
+      <p>
+        hey this is pharagraph
+        <span>inside</span>
+      </p>
+      <span>hello!</span>
+    </div>
+  </body>
+</html>

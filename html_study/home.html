@@ -1,0 +1,78 @@
+<!DOCTYPE html> -> 닫을 필요 없다
+<html lang="kr">
+  어떤언어를 사용하는지 알려준다.
+  <head>
+    세팅을 정해주는 태그
+    <link
+      rel="shortcut icon"
+      sizies="16x16 32x32 64x64"
+      href="/favicon.ico?1"
+    />
+    <title>home - my first wevsite.</title>
+    head안에 넣는 코드는 다 보이지 않는다, 보여질 내용은 다 body에 넣어야 된다
+    <meta name="description" content="this is our website" />
+    <meta charset="utf-8" />
+    meta - content, name attributes -> text를 어떻게 그려야하는지 알려준다.
+    브라우저가 어떻게 보일지, 사이트의 부가적인 요소
+  </head>
+  이곳에 넣는 모든것이 다 html이라고 알려주는 태그
+  <body>
+    콘텐츠를 담는 body
+    <h1>hello!</h1>
+    <p>
+      my name is <mark><abbr title="rotoma">R</abbr></mark>
+    </p>
+    //약어 mdn- tag를 살펴볼 수 있는 좋은 사이트
+    <form>
+      <div>
+        <label for="profile">profile photo</label>
+        <input id="profile" type="file" accept="image/*" />
+      </div>
+
+      <div>
+        <label for="first-name">first-name</label>
+        <input id="first-name" required placeholder="Name" type="text" />
+        <input required placeholder="last Name" type="text" />
+        <input required placeholder="User name" type="text" />
+        <input required placeholder="password" minlength="7" type="password" />
+        <input type="submit" value="create account" />
+      </div>
+
+      <div>
+        <label for="website">website</label>
+        <input id="website" required placeholder="web" type="url" />
+      </div>
+    </form>
+  </body>
+</html>
+
+<h1>Hello HTML! this is my website!</h1>
+<h2>Hello HTML! this is my website!</h2>
+<h3>Hello HTML! this is my website!</h3>
+<h4>Hello HTML! this is my website!</h4>
+<h5>Hello HTML! this is my website!</h5>
+<h6>Hello HTML! this is my website!</h6>
+
+<ul>
+  <li>beer</li>
+  <li>김치</li>
+  <li>meat</li>
+  <li>milk</li>
+</ul>
+
+<ol>
+  <li>beer</li>
+  <li>김치</li>
+  <li>meat</li>
+  <li>milk</li>
+</ol>
+<h1>Hello!</h1>
+
+<a href="http://google.com" target="_blank">go to google.com</a>
+<img
+  src="https://blog.kakaocdn.net/dn/oM8hb/btqBjV4mrgr/ABixyrH7oMVpu5R0M6IGrk/img.jpg"
+/>
+<img src="img/go.jpg" />
+
+단지 브라우저가 이해를 못할 뿐... be sementic > div -> just a box but every
+boxes have means. -> header main address
